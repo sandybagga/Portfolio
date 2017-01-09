@@ -86,8 +86,11 @@ a {
       text-decoration: none; }
 
 .img div {
-  height: 12.5em !important;
+  height: 12.5em;
   background-color: gray; }
+  @media (min-width: 768px) {
+    .img div {
+      height: 17.5em; } }
 
 @media (min-width: 768px) {
   .brixwork {
