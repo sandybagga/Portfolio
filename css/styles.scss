@@ -103,27 +103,32 @@ a {
     }
 }
 
+.img {
+    div {
+        height: 12.5em;
+    }
+}
+
 .visier .img {
-    div {
-        height: 20em;
-        background-color: gray;
+    @media (min-width: 768px) {
+        div {
+            height: 20em;
+            background-color: gray;
+        }
     }
 }
 
-.prohibition .img {
-    div {
-        height: 17.5em;
-        background-color: gray;
-    }
-}
-
-.brixwork {
-    .img {
+.prohibition .img,
+.brixwork .img {
+    @media (min-width: 768px) {
         div {
             height: 17.5em;
             background-color: gray;
         }
     }
+}
+
+.brixwork {
     @media (min-width: 768px) {
         padding-left: 0;
         padding-right: 0;

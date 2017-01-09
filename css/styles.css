@@ -82,17 +82,19 @@ a {
     .copy div a:hover {
       text-decoration: none; }
 
-.visier .img div {
-  height: 20em;
-  background-color: gray; }
+.img div {
+  height: 12.5em; }
 
-.prohibition .img div {
-  height: 17.5em;
-  background-color: gray; }
+@media (min-width: 768px) {
+  .visier .img div {
+    height: 20em;
+    background-color: gray; } }
 
-.brixwork .img div {
-  height: 17.5em;
-  background-color: gray; }
+@media (min-width: 768px) {
+  .prohibition .img div,
+  .brixwork .img div {
+    height: 17.5em;
+    background-color: gray; } }
 
 @media (min-width: 768px) {
   .brixwork {
