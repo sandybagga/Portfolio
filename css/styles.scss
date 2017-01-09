@@ -118,8 +118,6 @@ a {
 }
 
 .brixwork {
-    padding-left: 0;
-    padding-right: 0;
     .img {
         div {
             height: 17.5em;
@@ -127,6 +125,8 @@ a {
         }
     }
     @media (min-width: 992px) {
+        padding-left: 0;
+        padding-right: 0;
         margin-top: -1em;
     }
 }
