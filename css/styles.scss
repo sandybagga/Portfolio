@@ -5,8 +5,11 @@ html * {
 }
 
 .container {
-    margin-top: 15em;
+    margin-top: 7.5em;
     position: relative;
+    @media (min-width: 768px) {
+        margin-top: 15em;
+    }
 }
 
 h1 {
