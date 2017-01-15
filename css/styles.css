@@ -42,6 +42,7 @@ p {
 
 hr {
   margin: 0em;
+  border: none;
   border-top: 0.5em solid black; }
 
 a {
