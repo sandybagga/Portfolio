@@ -47,8 +47,9 @@ p {
 
 hr {
     margin: 0em;
+    background-color: black;
+    height: 0.5em;
     border: none;
-    border-top: 0.5em solid black;
     @media (min-width: 768px) {}
 }
 
